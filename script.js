@@ -1,5 +1,4 @@
 /* 
-  JavaScript obrigatório da atividade.
   Neste arquivo estão: menu mobile, tema claro/escuro, destaque do menu ativo
   e validação/simulação de envio do formulário de contato.
 */
