@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio online de Frederico Oliveira, professor de inglês, estudante de Análise e Desenvolvimento de Sistemas e futuro desenvolvedor backend Python.">
+  <title>Frederico Oliveira | Portfólio Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Cabeçalho fixo com navegação visível em toda a página -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <img src="assets/favicon.svg" alt="" aria-hidden="true">
+        <span>Frederico Oliveira</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro">
+        <span class="theme-toggle__icon">🌙</span>
+        <span class="theme-toggle__text">Tema</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Portfólio pessoal • Currículo online</p>
+          <h1>Professor de inglês, estudante de ADS e futuro desenvolvedor backend com Python.</h1>
+          <p class="lead">
+            Sou Frederico Oliveira. Atuo na educação pública desde 2014, moro em Poá/SP e estou em transição para a área de tecnologia,
+            com foco em desenvolvimento web e organização de processos por meio de soluções digitais.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#portfolio">Ver meus projetos</a>
+            <a class="button secondary" href="#contato">Entrar em contato</a>
+          </div>
+
+          <ul class="quick-facts" aria-label="Resumo profissional">
+            <li><strong>Área de interesse:</strong> Desenvolvimento backend</li>
+            <li><strong>Stack em formação:</strong> HTML, CSS, JavaScript e Python</li>
+            <li><strong>Objetivo:</strong> Construir soluções úteis e organizadas</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <img class="avatar" src="assets/avatar.svg" alt="Ilustração de perfil profissional">
+          <div class="hero-card__content">
+            <h2>Resumo</h2>
+            <p>Experiência com educação, comunicação e rotinas administrativas. Interesse especial por sistemas que economizam tempo e melhoram o fluxo de informação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01</p>
+          <h2>Sobre mim</h2>
+        </div>
+
+        <div class="two-column">
+          <article class="card">
+            <h3>Apresentação</h3>
+            <p>
+              Trabalho como professor de inglês na rede municipal de ensino e, ao mesmo tempo, estudo Análise e Desenvolvimento de Sistemas.
+              Gosto de aprender de forma prática e tenho grande interesse por projetos que unam organização, clareza de informação e tecnologia.
+            </p>
+            <p>
+              Minha meta profissional é atuar em home office com desenvolvimento de software, especialmente em funções ligadas ao backend,
+              automação de tarefas e manutenção de sistemas web.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Hobbies e interesses</h3>
+            <ul class="check-list">
+              <li>Leitura de ficção científica</li>
+              <li>Crochê como atividade manual e criativa</li>
+              <li>Sashiko e trabalhos artesanais</li>
+              <li>Estudo contínuo de tecnologia</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="formacao">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02</p>
+          <h2>Formação</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item card">
+            <span class="tag">Formação acadêmica</span>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>Graduação em andamento, com foco em lógica de programação, desenvolvimento web e estruturação de sistemas.</p>
+          </article>
+
+          <article class="timeline-item card">
+            <span class="tag">Experiência profissional</span>
+            <h3>Professor de Inglês • Rede municipal de Poá/SP</h3>
+            <p>Atuação desde 2014 no Ensino Fundamental, com experiência em planejamento, comunicação, organização pedagógica e uso de tecnologia educacional.</p>
+          </article>
+
+          <article class="timeline-item card">
+            <span class="tag">Idiomas</span>
+            <h3>Português e Inglês</h3>
+            <p>Português nativo e inglês utilizado no trabalho docente, com interesse em aplicar o idioma também em documentação técnica e tecnologia.</p>
+          </article>
+
+          <article class="timeline-item card">
+            <span class="tag">Estudos complementares</span>
+            <h3>Desenvolvimento web e Python</h3>
+            <p>Estudos práticos em HTML5, CSS3, JavaScript e Python, com interesse especial em backend, automação e manutenção de sistemas web.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03</p>
+          <h2>Portfólio</h2>
+        </div>
+
+        <p class="section-intro">
+          Abaixo estão alguns trabalhos e ideias de projeto alinhados com minha trajetória profissional e meus estudos atuais.
+          Cada card leva para uma descrição resumida do projeto dentro desta própria página.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card card">
+            <span class="tag">Projeto 01</span>
+            <h3>Sistema educacional para municípios</h3>
+            <p>Proposta de solução web voltada à integração entre gestão escolar, diário digital e comunicação educacional.</p>
+            <a class="text-link" href="#projeto-educacao">Ler detalhes do projeto</a>
+          </article>
+
+          <article class="project-card card">
+            <span class="tag">Projeto 02</span>
+            <h3>Automação de rotinas administrativas</h3>
+            <p>Estudo de automação para leitura de listas, consulta em sites, atualização de cadastros e organização de dados.</p>
+            <a class="text-link" href="#projeto-automacao">Ler detalhes do projeto</a>
+          </article>
+
+          <article class="project-card card">
+            <span class="tag">Projeto 03</span>
+            <h3>Portfólio pessoal em desenvolvimento web</h3>
+            <p>Criação de site pessoal responsivo com HTML, CSS e JavaScript, com foco em apresentação profissional online.</p>
+            <a class="text-link" href="#projeto-portfolio">Ler detalhes do projeto</a>
+          </article>
+        </div>
+
+        <div class="project-details">
+          <article class="card detail-card" id="projeto-educacao">
+            <h3>Sistema educacional para municípios</h3>
+            <p>
+              Projeto conceitual voltado ao uso de tecnologia em redes municipais de ensino, reunindo funções administrativas,
+              acompanhamento pedagógico e recursos de comunicação em uma única plataforma.
+            </p>
+          </article>
+
+          <article class="card detail-card" id="projeto-automacao">
+            <h3>Automação de rotinas administrativas</h3>
+            <p>
+              Estudo de solução digital para automatizar tarefas repetitivas como leitura de planilhas, pesquisa de informações,
+              atualização de cadastros e consolidação de dados em relatórios.
+            </p>
+          </article>
+
+          <article class="card detail-card" id="projeto-portfolio">
+            <h3>Portfólio pessoal em desenvolvimento web</h3>
+            <p>
+              Desenvolvimento deste site como atividade prática da disciplina, aplicando HTML5, CSS3 sem frameworks,
+              JavaScript para interações e estrutura preparada para publicação no GitHub Pages.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contato">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04</p>
+          <h2>Contato</h2>
+        </div>
+
+        <div class="contact-grid">
+          <article class="card">
+            <h3>Vamos conversar</h3>
+            <p>
+              Este formulário realiza validação com JavaScript e simula o envio da mensagem, conforme solicitado na atividade.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Cidade:</strong> Poá/SP</li>
+              <li><strong>Objetivo:</strong> Oportunidades em tecnologia</li>
+              <li><strong>Interesse:</strong> Desenvolvimento web e backend</li>
+            </ul>
+          </article>
+
+          <form class="card contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+              <small class="error-message" data-error-for="nome"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+              <small class="error-message" data-error-for="email"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+              <small class="error-message" data-error-for="mensagem"></small>
+            </div>
+
+            <button class="button primary submit-button" type="submit">Enviar mensagem</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="current-year"></span> Frederico Oliveira • Portfólio online desenvolvido com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
